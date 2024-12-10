@@ -1,0 +1,1 @@
+This example demonstrates a common error in DApps: insufficient input validation. The `calculateReward` function throws an error if the input is negative, but it doesn't handle cases where the input is not a number at all. This could lead to unexpected behavior or application crashes.  The solution shows how to add input validation to prevent such errors.
